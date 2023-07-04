@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/eab2d6993e344cf0ba3c1692ad1ec957/artifacts
+deleted_time: 1681383677100
+end_time: 1681380046657
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: eab2d6993e344cf0ba3c1692ad1ec957
+run_name: luxuriant-whale-617
+run_uuid: eab2d6993e344cf0ba3c1692ad1ec957
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681379979479
+status: 3
+tags: []
+user_id: kaka

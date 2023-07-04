@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/7b07d5f299c9430b80463191ffd5b034/artifacts
+end_time: 1681407153224
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7b07d5f299c9430b80463191ffd5b034
+run_name: abrasive-owl-697
+run_uuid: 7b07d5f299c9430b80463191ffd5b034
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681407074013
+status: 3
+tags: []
+user_id: kaka

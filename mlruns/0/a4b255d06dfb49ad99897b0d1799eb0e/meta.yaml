@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/a4b255d06dfb49ad99897b0d1799eb0e/artifacts
+deleted_time: 1681388058016
+end_time: 1681384822668
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: a4b255d06dfb49ad99897b0d1799eb0e
+run_name: tasteful-snipe-41
+run_uuid: a4b255d06dfb49ad99897b0d1799eb0e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681384729430
+status: 3
+tags: []
+user_id: kaka

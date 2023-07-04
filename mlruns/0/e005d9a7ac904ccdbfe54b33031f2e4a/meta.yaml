@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/e005d9a7ac904ccdbfe54b33031f2e4a/artifacts
+deleted_time: 1681379925876
+end_time: 1681379886819
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: e005d9a7ac904ccdbfe54b33031f2e4a
+run_name: masked-snail-728
+run_uuid: e005d9a7ac904ccdbfe54b33031f2e4a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681379856013
+status: 3
+tags: []
+user_id: kaka

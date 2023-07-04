@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/e26ee678952f49d6b02b5ef866baffe9/artifacts
+deleted_time: 1681388058009
+end_time: 1681385334150
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: e26ee678952f49d6b02b5ef866baffe9
+run_name: adventurous-worm-137
+run_uuid: e26ee678952f49d6b02b5ef866baffe9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681385333295
+status: 3
+tags: []
+user_id: kaka

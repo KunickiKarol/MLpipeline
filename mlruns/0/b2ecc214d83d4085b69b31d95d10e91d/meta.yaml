@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/b2ecc214d83d4085b69b31d95d10e91d/artifacts
+end_time: 1681397631703
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b2ecc214d83d4085b69b31d95d10e91d
+run_name: RandomForestClassifier SelectKBest None 2023-04-13_16-53-51
+run_uuid: b2ecc214d83d4085b69b31d95d10e91d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681397631667
+status: 3
+tags: []
+user_id: kaka

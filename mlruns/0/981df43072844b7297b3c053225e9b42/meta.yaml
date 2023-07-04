@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/981df43072844b7297b3c053225e9b42/artifacts
+deleted_time: 1681388057996
+end_time: 1681386258415
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 981df43072844b7297b3c053225e9b42
+run_name: useful-bass-149
+run_uuid: 981df43072844b7297b3c053225e9b42
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681385766348
+status: 3
+tags: []
+user_id: kaka

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/0724cd46b61b4e528f3e2b9a89295f3b/artifacts
+end_time: 1681464233893
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0724cd46b61b4e528f3e2b9a89295f3b
+run_name: thoughtful-snail-680
+run_uuid: 0724cd46b61b4e528f3e2b9a89295f3b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681464233187
+status: 3
+tags: []
+user_id: kaka

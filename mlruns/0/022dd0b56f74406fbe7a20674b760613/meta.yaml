@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/022dd0b56f74406fbe7a20674b760613/artifacts
+end_time: 1681464298773
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 022dd0b56f74406fbe7a20674b760613
+run_name: hilarious-stork-354
+run_uuid: 022dd0b56f74406fbe7a20674b760613
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681464233897
+status: 3
+tags: []
+user_id: kaka

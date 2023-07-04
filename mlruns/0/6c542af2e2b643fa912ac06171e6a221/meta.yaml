@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/6c542af2e2b643fa912ac06171e6a221/artifacts
+deleted_time: 1681383677092
+end_time: 1681382337254
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 6c542af2e2b643fa912ac06171e6a221
+run_name: orderly-dolphin-604
+run_uuid: 6c542af2e2b643fa912ac06171e6a221
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681381852015
+status: 3
+tags: []
+user_id: kaka

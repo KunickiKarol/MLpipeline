@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/107314f068214c648753db9e66e4e5ab/artifacts
+deleted_time: 1681395258337
+end_time: 1681393079510
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 107314f068214c648753db9e66e4e5ab
+run_name: RandomForestClassifier VarianceThreshold PCA 2023-04-13_15-37-59
+run_uuid: 107314f068214c648753db9e66e4e5ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681393079472
+status: 3
+tags: []
+user_id: kaka

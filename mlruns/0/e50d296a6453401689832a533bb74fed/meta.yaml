@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/e50d296a6453401689832a533bb74fed/artifacts
+end_time: 1681398059158
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e50d296a6453401689832a533bb74fed
+run_name: RandomForestClassifier VarianceThreshold None 2023-04-13_17-00-59
+run_uuid: e50d296a6453401689832a533bb74fed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681398059121
+status: 3
+tags: []
+user_id: kaka

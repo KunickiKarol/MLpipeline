@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/65dce6eeeb6942c48f9b8fd3f8a5f59e/artifacts
+deleted_time: 1681383677094
+end_time: 1681381785042
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 65dce6eeeb6942c48f9b8fd3f8a5f59e
+run_name: nervous-vole-984
+run_uuid: 65dce6eeeb6942c48f9b8fd3f8a5f59e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681381784288
+status: 3
+tags: []
+user_id: kaka

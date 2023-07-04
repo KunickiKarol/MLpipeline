@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/0ae3131a8ac04faca39cdb4998c2ba56/artifacts
+end_time: 1681402635957
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0ae3131a8ac04faca39cdb4998c2ba56
+run_name: DummyClassifier None None 2023-04-13_18-17-15
+run_uuid: 0ae3131a8ac04faca39cdb4998c2ba56
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681402635919
+status: 3
+tags: []
+user_id: kaka

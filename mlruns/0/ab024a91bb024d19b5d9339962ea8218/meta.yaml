@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/ab024a91bb024d19b5d9339962ea8218/artifacts
+deleted_time: 1681388058000
+end_time: 1681385690834
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: ab024a91bb024d19b5d9339962ea8218
+run_name: agreeable-cow-255
+run_uuid: ab024a91bb024d19b5d9339962ea8218
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681385689881
+status: 3
+tags: []
+user_id: kaka

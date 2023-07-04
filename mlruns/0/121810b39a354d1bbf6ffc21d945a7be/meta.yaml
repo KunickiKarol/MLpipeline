@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/121810b39a354d1bbf6ffc21d945a7be/artifacts
+deleted_time: 1681388058023
+end_time: 1681383729963
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 121810b39a354d1bbf6ffc21d945a7be
+run_name: bold-zebra-213
+run_uuid: 121810b39a354d1bbf6ffc21d945a7be
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681383729177
+status: 3
+tags: []
+user_id: kaka

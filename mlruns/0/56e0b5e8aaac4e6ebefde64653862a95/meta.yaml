@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/56e0b5e8aaac4e6ebefde64653862a95/artifacts
+deleted_time: 1681388058016
+end_time: 1681385333290
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 56e0b5e8aaac4e6ebefde64653862a95
+run_name: respected-smelt-322
+run_uuid: 56e0b5e8aaac4e6ebefde64653862a95
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681385249142
+status: 3
+tags: []
+user_id: kaka

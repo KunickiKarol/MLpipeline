@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/eabf456521cc43d3b47c06d7a9594ef5/artifacts
+deleted_time: 1681379887386
+end_time: 1681378744046
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: eabf456521cc43d3b47c06d7a9594ef5
+run_name: stylish-doe-571
+run_uuid: eabf456521cc43d3b47c06d7a9594ef5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681378744033
+status: 3
+tags: []
+user_id: kaka

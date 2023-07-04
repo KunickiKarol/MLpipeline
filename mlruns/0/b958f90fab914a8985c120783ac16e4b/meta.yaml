@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/b958f90fab914a8985c120783ac16e4b/artifacts
+deleted_time: 1681388058016
+end_time: 1681385065194
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: b958f90fab914a8985c120783ac16e4b
+run_name: placid-bat-609
+run_uuid: b958f90fab914a8985c120783ac16e4b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681385064670
+status: 3
+tags: []
+user_id: kaka

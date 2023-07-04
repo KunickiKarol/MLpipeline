@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/aad7816e23e8475a9a82d5b4c613f724/artifacts
+deleted_time: 1681388058016
+end_time: 1681385249137
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: aad7816e23e8475a9a82d5b4c613f724
+run_name: funny-squid-648
+run_uuid: aad7816e23e8475a9a82d5b4c613f724
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681385248181
+status: 3
+tags: []
+user_id: kaka

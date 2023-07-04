@@ -1,0 +1,5 @@
+|     Model     |  Argumenty |      Selektor      |      Reduktor     | F1_scorde |
+|---------------|------------|--------------------|-------------------|-----------|
+|     Dummy     |   Default  |        None        |        None       |  0.6117   |
+|      SVM      |   Default  |  Var_treshold=0.0  |        None       |  0.7773   |
+| Random Forest |  MinLeaf=5 |        None        | PCA_components=50 |  0.7671   |

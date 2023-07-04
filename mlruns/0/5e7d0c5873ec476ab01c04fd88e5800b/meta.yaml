@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/5e7d0c5873ec476ab01c04fd88e5800b/artifacts
+deleted_time: 1681379887392
+end_time: 1681378773245
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 5e7d0c5873ec476ab01c04fd88e5800b
+run_name: amazing-sponge-859
+run_uuid: 5e7d0c5873ec476ab01c04fd88e5800b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681378744086
+status: 3
+tags: []
+user_id: kaka

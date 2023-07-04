@@ -1,0 +1,25 @@
+class_column_name: overall
+
+processing:
+  start_file: data/start_data
+  target_file: data/plik/i
+  file_names:
+  - All_Beauty_5.json
+  - AMAZON_FASHION_5.json
+  - Appliances_5.json
+  - Software_5.json
+  
+split:
+  target_file_train: data/train/train_raw.json
+  target_file_test: data/test/test_raw.json
+
+extraction:
+  target_file_train: data/train/train_extracted.json
+  target_file_test: data/test/test_extracted.json
+  
+learn_and_evaluation:
+  target_file: data/results/results_cross.json
+  method: cross
+  model: svm
+  selection: SelectKBest
+  reduction: None

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/2a48c4dd9d9741268f4908730bf02591/artifacts
+deleted_time: 1681379925882
+end_time: 1681379080700
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 2a48c4dd9d9741268f4908730bf02591
+run_name: enthused-tern-179
+run_uuid: 2a48c4dd9d9741268f4908730bf02591
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681379080672
+status: 3
+tags: []
+user_id: kaka

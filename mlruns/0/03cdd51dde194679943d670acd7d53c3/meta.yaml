@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/03cdd51dde194679943d670acd7d53c3/artifacts
+deleted_time: 1681388058018
+end_time: 1681384661999
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 03cdd51dde194679943d670acd7d53c3
+run_name: bright-fox-410
+run_uuid: 03cdd51dde194679943d670acd7d53c3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681384661061
+status: 3
+tags: []
+user_id: kaka

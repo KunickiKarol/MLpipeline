@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/cbe6b4b4a8d24b74bdb8097d719ae960/artifacts
+deleted_time: 1681378739875
+end_time: 1681378280479
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: cbe6b4b4a8d24b74bdb8097d719ae960
+run_name: valuable-bass-715
+run_uuid: cbe6b4b4a8d24b74bdb8097d719ae960
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681378228823
+status: 3
+tags: []
+user_id: kaka

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/60c25ccd1abf44cba6d27ac1d2f2b087/artifacts
+deleted_time: 1681379887387
+end_time: 1681378744082
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 60c25ccd1abf44cba6d27ac1d2f2b087
+run_name: gaudy-rat-927
+run_uuid: 60c25ccd1abf44cba6d27ac1d2f2b087
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681378744068
+status: 3
+tags: []
+user_id: kaka

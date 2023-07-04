@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/8f1f9d28f525485f8580945baaca8ddb/artifacts
+end_time: 1681403098227
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8f1f9d28f525485f8580945baaca8ddb
+run_name: gaudy-vole-443
+run_uuid: 8f1f9d28f525485f8580945baaca8ddb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681402851535
+status: 3
+tags: []
+user_id: kaka

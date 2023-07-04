@@ -1,0 +1,1 @@
+LinearSVC(max_iter=10000, random_state=1, tol=0.001)

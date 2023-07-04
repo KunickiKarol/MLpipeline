@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/c4968dd8b8054b7b9b57baa19d41cf8c/artifacts
+deleted_time: 1681388058023
+end_time: 1681384228216
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: c4968dd8b8054b7b9b57baa19d41cf8c
+run_name: whimsical-wren-400
+run_uuid: c4968dd8b8054b7b9b57baa19d41cf8c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681383798726
+status: 3
+tags: []
+user_id: kaka

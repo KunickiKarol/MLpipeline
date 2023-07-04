@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/b63fc217924e45fdb5b7ce1732e983d7/artifacts
+deleted_time: 1681379887385
+end_time: 1681378743652
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: b63fc217924e45fdb5b7ce1732e983d7
+run_name: colorful-asp-117
+run_uuid: b63fc217924e45fdb5b7ce1732e983d7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681378743227
+status: 3
+tags: []
+user_id: kaka

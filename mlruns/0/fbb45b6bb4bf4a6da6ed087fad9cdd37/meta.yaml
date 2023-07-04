@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/fbb45b6bb4bf4a6da6ed087fad9cdd37/artifacts
+end_time: 1681402776651
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fbb45b6bb4bf4a6da6ed087fad9cdd37
+run_name: smiling-mule-461
+run_uuid: fbb45b6bb4bf4a6da6ed087fad9cdd37
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681402775778
+status: 3
+tags: []
+user_id: kaka

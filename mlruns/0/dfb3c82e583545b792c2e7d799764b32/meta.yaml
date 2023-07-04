@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/dfb3c82e583545b792c2e7d799764b32/artifacts
+deleted_time: 1681379887392
+end_time: 1681378990083
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: dfb3c82e583545b792c2e7d799764b32
+run_name: wistful-moose-891
+run_uuid: dfb3c82e583545b792c2e7d799764b32
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681378814287
+status: 3
+tags: []
+user_id: kaka

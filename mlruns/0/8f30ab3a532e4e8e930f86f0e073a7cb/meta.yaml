@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/8f30ab3a532e4e8e930f86f0e073a7cb/artifacts
+deleted_time: 1681388058017
+end_time: 1681384729426
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 8f30ab3a532e4e8e930f86f0e073a7cb
+run_name: worried-stork-329
+run_uuid: 8f30ab3a532e4e8e930f86f0e073a7cb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681384662003
+status: 3
+tags: []
+user_id: kaka

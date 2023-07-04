@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/be47601227da41c9bc454d9c52bdaaeb/artifacts
+end_time: 1681402851531
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: be47601227da41c9bc454d9c52bdaaeb
+run_name: adaptable-gull-643
+run_uuid: be47601227da41c9bc454d9c52bdaaeb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681402776656
+status: 3
+tags: []
+user_id: kaka

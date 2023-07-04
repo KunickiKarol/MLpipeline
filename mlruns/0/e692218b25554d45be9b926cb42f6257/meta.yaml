@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/e692218b25554d45be9b926cb42f6257/artifacts
+deleted_time: 1681388058007
+end_time: 1681385591904
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: e692218b25554d45be9b926cb42f6257
+run_name: dapper-fowl-735
+run_uuid: e692218b25554d45be9b926cb42f6257
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681385590990
+status: 3
+tags: []
+user_id: kaka

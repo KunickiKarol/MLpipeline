@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/b7eb2813eb7a475e9b9eae6d85794c2e/artifacts
+deleted_time: 1681383677095
+end_time: 1681380483598
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: b7eb2813eb7a475e9b9eae6d85794c2e
+run_name: nimble-zebra-768
+run_uuid: b7eb2813eb7a475e9b9eae6d85794c2e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681380046661
+status: 3
+tags: []
+user_id: kaka

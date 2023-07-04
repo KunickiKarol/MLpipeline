@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/2402d8374963475a9436b0ac8108c0e4/artifacts
+deleted_time: 1681379925882
+end_time: 1681379256910
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 2402d8374963475a9436b0ac8108c0e4
+run_name: casual-fox-929
+run_uuid: 2402d8374963475a9436b0ac8108c0e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681379256896
+status: 3
+tags: []
+user_id: kaka

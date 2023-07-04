@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/fbdd5d15510a4859b36d7d34d0e72ba2/artifacts
+deleted_time: 1681388058007
+end_time: 1681385475427
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: fbdd5d15510a4859b36d7d34d0e72ba2
+run_name: monumental-kite-753
+run_uuid: fbdd5d15510a4859b36d7d34d0e72ba2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681385474534
+status: 3
+tags: []
+user_id: kaka

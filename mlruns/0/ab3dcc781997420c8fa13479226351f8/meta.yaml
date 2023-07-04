@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/ab3dcc781997420c8fa13479226351f8/artifacts
+deleted_time: 1681379887392
+end_time: 1681378814283
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: ab3dcc781997420c8fa13479226351f8
+run_name: colorful-bee-545
+run_uuid: ab3dcc781997420c8fa13479226351f8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681378814270
+status: 3
+tags: []
+user_id: kaka

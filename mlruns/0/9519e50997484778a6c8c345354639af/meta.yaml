@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/9519e50997484778a6c8c345354639af/artifacts
+end_time: 1681403534016
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9519e50997484778a6c8c345354639af
+run_name: LinearSVC None None 2023-04-13_18-32-13
+run_uuid: 9519e50997484778a6c8c345354639af
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681403533972
+status: 3
+tags: []
+user_id: kaka

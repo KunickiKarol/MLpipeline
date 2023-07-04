@@ -1,0 +1,144 @@
+schema: '2.0'
+stages:
+  processing:
+    cmd: python scripts/processing.py
+    deps:
+    - path: data/start_data
+      md5: 86443bb3e4812af1003aef9675abd745.dir
+      size: 24364415
+      nfiles: 4
+    - path: scripts/processing.py
+      md5: 29659eb8532e5c29a18ec802b196d0dc
+      size: 535
+    params:
+      params.yaml:
+        processing.file_names:
+        - All_Beauty_5.json
+        - AMAZON_FASHION_5.json
+        - Appliances_5.json
+        - Software_5.json
+        processing.start_file: data/start_data
+        processing.target_file: data/plik/i
+    outs:
+    - path: data/plik/i
+      md5: 694b46957759c84a05cd659a6bfd63c4
+      size: 25274221
+  split:
+    cmd: python scripts/split.py
+    deps:
+    - path: data/plik/i
+      md5: 694b46957759c84a05cd659a6bfd63c4
+      size: 25274221
+    - path: scripts/split.py
+      md5: 0b328f7a121d8c97810d58d1c2f7085e
+      size: 603
+    params:
+      params.yaml:
+        class_column_name: overall
+        processing.target_file: data/plik/i
+        split.target_file_test: data/test/test_raw.json
+        split.target_file_train: data/train/train_raw.json
+    outs:
+    - path: data/test/test_raw.json
+      md5: 7363c11297a765a9ebe2da40636dcc07
+      size: 5060750
+    - path: data/train/train_raw.json
+      md5: ecd1f3260e7876c44c35e9ac0b3ae010
+      size: 20213471
+  extraction:
+    cmd: python scripts/extraction.py
+    deps:
+    - path: data/test/test_raw.json
+      md5: 7363c11297a765a9ebe2da40636dcc07
+      size: 5060750
+    - path: data/train/train_raw.json
+      md5: ecd1f3260e7876c44c35e9ac0b3ae010
+      size: 20213471
+    - path: scripts/extraction.py
+      md5: efb5c17a2e600c9237f23a973af60ab3
+      size: 4906
+    params:
+      params.yaml:
+        extraction.target_file_test: data/test/test_extracted.json
+        extraction.target_file_train: data/train/train_extracted.json
+        split.target_file_test: data/test/test_raw.json
+        split.target_file_train: data/train/train_raw.json
+    outs:
+    - path: data/test/test_extracted.json
+      md5: 4d3a2d3355614ac8f804907d99bd3b87
+      size: 165442656
+    - path: data/train/train_extracted.json
+      md5: 8c51d8f2d614e14cd51e6874bf83a84f
+      size: 661657737
+  analyze:
+    cmd: papermill notebooks/analyze.ipynb data/notebooks/analyzed.ipynb
+    deps:
+    - path: data/start_data
+      md5: 86443bb3e4812af1003aef9675abd745.dir
+      size: 24364415
+      nfiles: 4
+    - path: notebooks/analyze.ipynb
+      md5: 7a95458a4c0210df98a2edb31aa8ae6f
+      size: 15286
+    params:
+      params.yaml:
+        processing.file_names:
+        - All_Beauty_5.json
+        - AMAZON_FASHION_5.json
+        - Appliances_5.json
+        - Software_5.json
+        processing.start_file: data/start_data
+        processing.target_file: data/plik/i
+    outs:
+    - path: data/notebooks/analyzed.ipynb
+      md5: 30c9c9fb4c423ab05daef926c0c0dd10
+      size: 237232
+  learn_and_evaluation:
+    cmd: python scripts/learn_and_evaluation.py
+    deps:
+    - path: data/test/test_extracted.json
+      md5: 4d3a2d3355614ac8f804907d99bd3b87
+      size: 165442656
+    - path: data/train/train_extracted.json
+      md5: 8c51d8f2d614e14cd51e6874bf83a84f
+      size: 661657737
+    - path: scripts/learn_and_evaluation.py
+      md5: fa0bde75f644b036ac4c7ec724a8b67a
+      size: 5656
+    params:
+      params.yaml:
+        class_column_name: overall
+        extraction.target_file_test: data/test/test_extracted.json
+        extraction.target_file_train: data/train/train_extracted.json
+        learn_and_evaluation.method: cross
+        learn_and_evaluation.model: svm
+        learn_and_evaluation.reduction: None
+        learn_and_evaluation.selection: SelectKBest
+        learn_and_evaluation.target_file: data/results/results_cross.json
+    outs:
+    - path: data/results/results_cross.json
+      md5: f6e87a3a4be9e81d91b7ee56ce59173c
+      size: 582
+  clean_notebook:
+    cmd: papermill notebooks/analyze.ipynb data/notebooks/analyzed.ipynb
+    deps:
+    - path: data/start_data
+      md5: 86443bb3e4812af1003aef9675abd745.dir
+      size: 24364415
+      nfiles: 4
+    - path: notebooks/analyze.ipynb
+      md5: 77f643af9c4843fefcabdb80a2508092
+      size: 15329
+    params:
+      params.yaml:
+        notebook_analyze.file_names:
+        - All_Beauty_5.json
+        - AMAZON_FASHION_5.json
+        - Appliances_5.json
+        - Software_5.json
+        notebook_analyze.start_file: notebooks/analyze.ipynb
+        notebook_analyze.target_file: data/notebooks/analyzed.ipynb
+    outs:
+    - path: data/notebooks/analyzed.ipynb
+      md5: 1cd62f80830badebe95c61ef98da97b1
+      size: 213115

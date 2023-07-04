@@ -1,0 +1,73 @@
+stages:
+  processing:
+    cmd: python scripts/processing.py
+    wdir: .
+    deps:
+    - data/start_data
+    - scripts/processing.py
+    params:
+    - processing.file_names
+    - processing.start_file
+    - processing.target_file
+    outs:
+    - data/plik/i
+  analyze:
+    deps:
+    - data/start_data
+    - notebooks/analyze.ipynb
+    params:
+    - processing.file_names
+    - processing.start_file
+    - processing.target_file
+    cmd: papermill notebooks/analyze.ipynb data/notebooks/analyzed.ipynb
+    metrics:
+    - data/notebooks/analyzed.ipynb:
+        cache: false
+  split:
+    cmd: python scripts/split.py
+    deps:
+    - data/plik/i
+    - scripts/split.py
+    params:
+    - processing.target_file
+    - split.target_file_test
+    - split.target_file_train
+    - class_column_name
+    outs:
+    - data/test/test_raw.json
+    - data/train/train_raw.json
+  extraction:
+    cmd: python scripts/extraction.py
+    deps:
+    - data/test/test_raw.json
+    - data/train/train_raw.json
+    - scripts/extraction.py
+    params:
+    - split.target_file_train
+    - split.target_file_test
+    - extraction.target_file_train
+    - extraction.target_file_test
+    outs:
+    - data/train/train_extracted.json
+    - data/test/test_extracted.json
+  learn_and_evaluation:
+    cmd: python scripts/learn_and_evaluation.py
+    deps:
+    - data/test/test_extracted.json
+    - data/train/train_extracted.json
+    - scripts/learn_and_evaluation.py
+    params:
+    - class_column_name
+    - extraction.target_file_train
+    - extraction.target_file_test
+    - learn_and_evaluation.target_file
+    - learn_and_evaluation.method
+    - learn_and_evaluation.model
+    - learn_and_evaluation.selection
+    - learn_and_evaluation.reduction
+    metrics:
+    - data/results/results_cross.json:
+        cache: false
+
+
+

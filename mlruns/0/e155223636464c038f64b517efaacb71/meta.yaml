@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/e155223636464c038f64b517efaacb71/artifacts
+end_time: 1681405816344
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e155223636464c038f64b517efaacb71
+run_name: LinearSVC VarianceThreshold PCA 2023-04-13_19-10-16
+run_uuid: e155223636464c038f64b517efaacb71
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681405816287
+status: 3
+tags: []
+user_id: kaka

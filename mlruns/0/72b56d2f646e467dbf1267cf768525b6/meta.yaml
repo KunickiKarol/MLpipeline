@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/72b56d2f646e467dbf1267cf768525b6/artifacts
+deleted_time: 1681379925882
+end_time: 1681379855584
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 72b56d2f646e467dbf1267cf768525b6
+run_name: zealous-doe-781
+run_uuid: 72b56d2f646e467dbf1267cf768525b6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681379855169
+status: 3
+tags: []
+user_id: kaka
