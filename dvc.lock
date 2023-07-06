@@ -142,3 +142,27 @@ stages:
     - path: data/notebooks/analyzed.ipynb
       md5: 1cd62f80830badebe95c61ef98da97b1
       size: 213115
+  preprocessing:
+    cmd: python scripts/preprocessing.py
+    deps:
+    - path: data/raw_data
+      md5: 86443bb3e4812af1003aef9675abd745.dir
+      size: 24364415
+      nfiles: 4
+    - path: scripts/preprocessing.py
+      md5: f97b497d483f76a58abb080a0ce3716f
+      size: 541
+      isexec: true
+    params:
+      params.yaml:
+        preprocessing.file_names:
+        - All_Beauty_5.json
+        - AMAZON_FASHION_5.json
+        - Appliances_5.json
+        - Software_5.json
+        preprocessing.start_file: data/raw_data
+        preprocessing.target_file: data/preprocessed_data/preprocessed_data_amazonn.json
+    outs:
+    - path: data/preprocessed_data/preprocessed_data_amazonn.json
+      md5: 694b46957759c84a05cd659a6bfd63c4
+      size: 25274221

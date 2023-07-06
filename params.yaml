@@ -1,13 +1,17 @@
 class_column_name: overall
 
-processing:
-  start_file: data/start_data
-  target_file: data/plik/i
+preprocessing:
+  start_file: data/raw_data
+  target_file: data/preprocessed_data/preprocessed_data_amazonn.json
   file_names:
   - All_Beauty_5.json
   - AMAZON_FASHION_5.json
   - Appliances_5.json
   - Software_5.json
+  
+analyze:
+  start_file: data/start_data
+  target_file: data/plik/i
   
 split:
   target_file_train: data/train/train_raw.json
