@@ -5,7 +5,7 @@ ARG GID
 
 WORKDIR /app
 
-RUN groupadd --gid $GID myuser && useradd --no-create-home -u $UID --gid $GID myuser && chown -R myuser:myuser /app
+RUN groupadd --gid $GID myuser && useradd --no-create-home -u $UID --gid $GID myuser && chown -R myuser:myuser /app && mkdir /home/myuser && chown myuser:myuser /home/myuser
 
 ENV PYTHONPATH "${PYTHONPATH}:/app"
 
@@ -20,5 +20,6 @@ USER myuser
 # docker exec -it MLpipeline_con bash
 # dvc repro --force learn_and_evaluation
 # mlflow ui --host 0.0.0.0
+# jupyter notebook --ip=0.0.0.0
 
 
