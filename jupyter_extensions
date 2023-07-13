@@ -1,0 +1,16 @@
+addbefore/main
+livemdpreview/livemdpreview
+hinterland/hinterland
+spellchecker/main
+tree-filter/index
+scratchpad/main
+code_prettify/autopep8
+move_selected_cells/main
+init_cell/main
+go_to_current_running_cell/main
+codefolding/main
+execute_time/ExecuteTime
+highlight_selected_word/main
+code_prettify/isort
+toc2/main
+varInspector/main
