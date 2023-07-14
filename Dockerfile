@@ -9,7 +9,7 @@ RUN groupadd --gid $GID myuser && useradd --no-create-home -u $UID --gid $GID my
 
 ENV PYTHONPATH "${PYTHONPATH}:/app"
 
-COPY requirements.txt .
+COPY requirements.txt enable_extensions.sh jupyter_extensions.txt .
 
 RUN pip --no-cache-dir install -r requirements.txt
 
