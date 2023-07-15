@@ -1,35 +1,35 @@
 stages:
-  processing:
-    cmd: python scripts/processing.py
+  preprocessing:
+    cmd: python scripts/preprocessing.py
     wdir: .
     deps:
-    - data/start_data
-    - scripts/processing.py
+    - data/raw_data
+    - scripts/preprocessing.py
     params:
-    - processing.file_names
-    - processing.start_file
-    - processing.target_file
+    - preprocessing.file_names
+    - preprocessing.start_file
+    - preprocessing.target_file
     outs:
-    - data/plik/i
+    - data/preprocessed_data/preprocessed_data_amazonn.json
   analyze:
+    cmd: papermill scripts/analyze.ipynb data/notebooks/analyzed.ipynb
     deps:
-    - data/start_data
-    - notebooks/analyze.ipynb
+    - data/preprocessed_data
+    - scripts/analyze.ipynb
     params:
-    - processing.file_names
-    - processing.start_file
-    - processing.target_file
-    cmd: papermill notebooks/analyze.ipynb data/notebooks/analyzed.ipynb
+    - preprocessing.file_names
+    - preprocessing.start_file
+    - preprocessing.target_file
     metrics:
     - data/notebooks/analyzed.ipynb:
         cache: false
   split:
     cmd: python scripts/split.py
     deps:
-    - data/plik/i
+    - data/processed_data
     - scripts/split.py
     params:
-    - processing.target_file
+    - preprocessing.target_file
     - split.target_file_test
     - split.target_file_train
     - class_column_name
