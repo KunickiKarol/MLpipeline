@@ -1,34 +1,21 @@
-"""Preprocessing files before analyze
-
-This script preprocess JSON files nad merge them into one JSON file. Each object in 
-the JSON file contains a `data_origin` key containing the original filename of where 
-the object came from
-
-This script requires that `dvc.api`and `pandas` be installed within the Python
-environment you are running this script in.
-
-This file can also be imported as a module and contains the following
-functions:
-
-    * get_spreadsheet_cols - merge JSON files into one DataFrame
-    * main - the main function of the script
-"""
+from typing import List
 
 import dvc.api
 import pandas as pd
+from pandas import DataFrame
 
 
-def merge_json_files(start_file, file_names):
+def merge_json_files(start_file: str, file_names: List[str]) -> DataFrame:
     """
-    Merge JSON files into one DataFrame. Create new column containing 
+    Merge JSON files into one DataFrame. Create a new column containing
     the original filename of where the row came from
 
     Args:
-        start_file (str): Ścieżka do katalogu, w którym znajdują się pliki JSON.
-        file_names (list): Lista nazw plików JSON, które mają zostać połączone.
+        start_file (str): Path to the directory where the JSON files are located.
+        file_names (list): List of JSON file names to be merged.
 
     Returns:
-        pd.DataFrame: Połączone dane w postaci obiektu DataFrame.
+        pd.DataFrame: Merged data as a DataFrame object.
     """
     merged_data = pd.DataFrame()
 
@@ -41,11 +28,11 @@ def merge_json_files(start_file, file_names):
     return merged_data
 
 
-def main():
+def main() -> None:
     """
-    Główna funkcja programu. Łączy pliki JSON i zapisuje wynik do pliku JSON.
+    Main function of the script. Merges JSON files and saves the result to a JSON file.
 
-    Pobiera parametry konfiguracyjne z DVC i wykonuje operacje na danych.
+    Retrieves configuration parameters from DVC and performs data operations.
     """
     params = dvc.api.params_show()
 
